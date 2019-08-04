@@ -281,8 +281,8 @@ a {
 	width: 2460px;
 	height: 450px;
 	position: absolute;
-	left:-200px;
-	transform:all 1s;
+	left: -200px;
+	transform: all 1s;
 }
 
 .fifth .imgCon img {
@@ -294,22 +294,42 @@ a {
 .fifth ul {
 	list-style: none;
 	position: absolute;
-	left:50%;
-	bottom:60px;
+	left: 47%;
+	bottom: 60px;
 }
-.fifth ul li{
-   border:1px solid ;
-   width:8px;
-   height:8px;
-   border-radius:50%;
-   background:white;
-   margin-left:4px;
-   float: left;
-   cursor:pointer;
+
+.fifth ul li {
+	border: 1px solid;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+	margin-left: 4px;
+	float: left;
+	cursor: pointer;
 
 }
 
-.we{
-	width:500px;
-	height:500px;
+.last {
+	width: 360px;
+	height: 360px;
+	position: relative;
+	margin: 90px auto 0px auto;
+	background-image: url(../imges/QR_code.png);
+	background-size: 100% 100%;
+}
+
+.last_text {
+	color: #676767;
+	font-family: 'microsoft yahei';
+	text-align: center;
+	margin-top:20px;
+	font-size:15px;
+}
+.footer{
+  color: #676767;
+	font-family: 'microsoft yahei';
+	text-align: center;
+	margin-top:180px;
+	font-size:15px;
 }
